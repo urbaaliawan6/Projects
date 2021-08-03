@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login Form</title>
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<style>
+.btn-1 {
+background-image: linear-gradient(to right, #43cea2 10%, #6dd5ed 51%, #4568dc, #b06ab3 );
+border-radius:15px;
+font-family: Open Sans;
+width: 320px;
+margin-left: 20px;
+color: white;
+
+}
+ input {
+        border-top-style: hidden;
+        border-right-style: hidden;
+        border-left-style: hidden;
+        margin-left: 20px;
+        font-family: Square721 BT;
+        
+
+      
+      }
+      
+      .no-outline:focus {
+        outline: none;
+       
+</style>
+<body style="background-image: url(bg-01.jpg);background-repeat: no-repeat;background-size:cover;">
+<div class="container" style="background-color: white; width: 400px; height: 600px; border-radius: 10px; margin-top: 30px; margin-bottom: 20px;" >
+<div class="col-lg-6">
+<h2 style="font-family: Swis721 Blk BT; margin-left: 120px; padding-top: 25px; ">Login</h2>
+</div>
+<div class="row"></div>
+<h5 style="font-family: Raleway; margin-top: 40px; margin-left: 30px;">Username</h5>
+<img src="prof-logo.png" style="width: 38px; margin-left: 30px;"><input type="text" placeholder="Type your username" >
+<br><br>
+ <h5 style="font-family: Raleway; margin-top: 10px; margin-left: 30px;">Password</h5>
+<img src="lock-logo.jpg" style="width: 38px; margin-left: 30px;"><input type="text" placeholder="Type your password">  
+<p style="margin-left: 240px; padding-bottom: 20px; font-family: Swis721 BT">Forgot password?</p>
+
+<a class="btn btn-1">LOGIN</a> 
+<br><br>
+
+<p style="margin-left: 125px; padding-top: 30px;">Or Sign Up Using</p>
+<div class="row"></div>
+<img src="in-logo.png" style="width:38px; padding-top:10px; margin-left: 120px">
+<img src="twit-logo.png" style="width: 38px; padding-top: 10px;">
+<img src="Google-Plus-Logo.png" style="width:38px; padding-top:10px;">
+
+<p style="margin-left: 125px;padding-top: 60px;">Have not account yet? <br> <a href="#" style="margin-left: 33px;">SIGN UP</a></p>
+</body>
+</html>
