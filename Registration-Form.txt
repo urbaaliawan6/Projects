@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>RegisterForm</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<style>
+body{
+background-image: url(bg-1.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+}
+.container{
+	background-color: white;
+	width: 500px; 
+	height: 700px; 
+	border-radius: 10px; 
+	margin-top: 140px; 
+	margin-bottom: 90px;
+}	
+h2{
+	margin-top: 60px;
+	margin-left: 10px;
+	color: #525252;
+	font-size: 30px;
+	font-family: Arial;
+	padding-bottom: 13px;
+}
+h5{
+	font-size: 20px;
+	padding-top: 10px;
+	color: #555;
+	padding-bottom: 15px;
+	
+}
+input {
+color: #555;
+outline: none;
+border: none;
+width: 100%;
+font-size: 15px;
+font-family: inherit;
+padding-top: 20px;
+box-shadow: inset 0px 4px 3px 0px rgba(0, 0, 0, 0.08);
+}
+.btn {
+  font-size: 18px;
+  padding: 15px 30px;
+  border-radius: 30px;
+  text-decoration: none;
+  display: inline-block;
+  text-transform: uppercase;
+  border: 0;
+  outline: 0;
+  box-shadow: 0 5px 10px 0 rgba(205, 209, 215, 0.8);
+  color: white;
+  }
+</style>
+<body>
+<div class="container">
+<div class="col-lg-12">
+<h2>Register</h2>
+<h5 style="padding-bottom: 0px;">Username<span style="color: red;">*</span></h5>
+<input type="text"placeholder="Your Username" style="padding-bottom: 10px; margin-bottom: 14px;">
+</div>
+<h5 style="padding-left: 11px; ">Full Name<span style="color: red;">*</span></h5>
+<div class="col-lg-5">
+<input type="text"placeholder="First Name" style="padding-bottom: 10px;">
+</div>
+<div class="col-lg-5">
+<input type="text" placeholder="Last Name" style="padding-bottom: 10px;">
+</div>
+<div class="col-lg-5">
+<h5>Email<span style="color: red;">*</span></h5>
+<input type="text"placeholder="Your Email" style="padding-bottom: 12px;">
+</div>
+<div class="col-lg-5">
+<h5>Password<span style="color: red;">*</span></h5>
+<input type="text"placeholder="Your Password" style="padding-bottom: 12px;">
+</div>
+<div class="col-lg-5">
+<h5>Phone Number<span style="color: red;">*</span></h5>
+<input type="text"placeholder="Your Phone Number" style="padding-bottom: 12px;">
+</div>
+<center><div class="col-lg-12" style="padding-top: 20px;">
+<a class="btn" style="background: linear-gradient(to right, #CB3066, #16BFFD);">Register</a>
+</div>
+</center>
+</div>
+</div>
+</body>
+</html>
